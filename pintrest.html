@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>520 Handbags ideas | bags, perfect handbag, purses</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Designed by MohammadReza Madankar. m.reza.madankar@gmail.com"
+    />
+    <link rel="icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./pintrestStyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navHeader">
+        <ul class="navHeaderItems">
+          <li class="logo">
+            <img src="./images/logo.png" alt="logo pintrest" />
+            <h2>Pinterest</h2>
+          </li>
+          <li class="smallScreen">
+            <a class="active" href="#">Today</a>
+          </li>
+          <li class="smallScreen">
+            <a class="active" href="#">Explore</a>
+          </li>
+          <li class="searchBox smallScreen">
+            <div>
+              <img src="./images/search.png" alt="searchLogo" />
+              <input
+                type="text"
+                placeholder="Search for easy dinners, fashion, etc."
+              />
+            </div>
+          </li>
+          <li class="smallScreen">
+            <a class="round" href="#">Get app</a>
+          </li>
+          <li>
+            <a class="round" href="#">Log in</a>
+          </li>
+          <li>
+            <a class="round" href="#">Sign up</a>
+          </li>
+        </ul>
+        <div class="drpDown smallScreen">
+          <img src="./images/down.png" alt="searchLogo" />
+          <ul class="dropDownMenu">
+            <li>
+              <a class="round" href="#">About Pinterest</a>
+            </li>
+            <li>
+              <a class="round" href="#">See terms & privacy</a>
+            </li>
+            <li class="footerDrpDownMenu">
+              <a class="round" href="#">Stop requests to log in</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="details">
+        <h1>Handbags</h1>
+        <p class="description">
+          The perfect handbags from totes, cross-body bags, satchels to clutches
+          to complement your wardrobe (and beyond).
+          <span class="pnDate">522 Pins 4y</span>
+        </p>
+        <div class="category">
+          <div class="categoryImageBox">
+            <img src="./images/category.jpg" alt="categoryImage" />
+          </div>
+          <p class="author">
+            <span>Collection by </span>
+            <span class="authorName">cabi Clothing</span>
+          </p>
+        </div>
+        <div class="similarBox">
+          <h2>Similar ideas popular now</h2>
+          <div class="items">
+            <div class="similarItem">
+              <span
+                class="logo"
+                style="background-image: url('./images/leather.jpg')"
+              ></span>
+              <span class="title">Leather</span>
+            </div>
+            <div class="similarItem">
+              <span
+                class="logo"
+                style="background-image: url('./images/handbags.jpg')"
+              ></span>
+              <span class="title">Handbags</span>
+            </div>
+            <div class="similarItem">
+              <span
+                class="logo"
+                style="background-image: url('./images/leather.jpg')"
+              ></span>
+              <span class="title">Bag Accessories</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="products"></div>
+      <div id="snippet" data-title=".dot-shuttle">
+        <div class="stage filter-contrast">
+          <div class="dot-shuttle"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./pintrestScript.js"></script>
+    <script>
+      Pintrest.init();
+    </script>
+  </body>
+</html>
