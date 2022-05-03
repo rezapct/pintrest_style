@@ -30,7 +30,7 @@ Pintrest.CallAPI = function () {
   document.getElementById("snippet").style.display = "flex";
 
   axios
-    .get("http://xoosha.com/ws/1/test.php", {
+    .get("https://xoosha.com/ws/1/test.php", {
 		  params: { offset: offset },
 		  headers: { 'Content-Type': 'application/json'}
 		})
