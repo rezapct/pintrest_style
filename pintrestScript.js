@@ -115,9 +115,7 @@ Pintrest.CallAPI = function () {
         var description = document.createElement("p");
         description.innerHTML =  "Couldn't call API, Please click here to try again";
         iDiv.appendChild(description);
-        iDiv.onclick = function () {
-          fetchApi(offset);
-        };
+    
 
         var div = document.getElementById("products");
         div.parentNode.insertBefore(iDiv, div.nextSibling);
