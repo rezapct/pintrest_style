@@ -383,7 +383,7 @@ div.navHeader div.drpDown ul.dropDownMenu{
         }
 
         div.navHeader ul.navHeaderItems li {
-            width: auto;
+              width: 30%;
         }
 
     .details p.description{
