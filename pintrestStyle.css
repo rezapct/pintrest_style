@@ -416,6 +416,10 @@ div.navHeader div.drpDown ul.dropDownMenu{
     div.navHeader ul.navHeaderItems li:last-child{
         display: none
     }
+    
+     .productItem .imageBox img{
+     height: aut0!important;    
+    }
 }
 
 
