@@ -43,10 +43,13 @@
           <li>
             <a class="round" href="#">Sign up</a>
           </li>
+          <li>
+            <img src="./images/down.png" alt="searchLogo" onclick="Pintrest.openMenu()"/>
+          </li>
         </ul>
         <div class="drpDown smallScreen">
-          <img src="./images/down.png" alt="searchLogo" />
-          <ul class="dropDownMenu">
+          <div class="overly"  onclick="Pintrest.openMenu()"></div>
+          <ul class="dropDownMenu" id="dropDownMenu">
             <li>
               <a class="round" href="#">About Pinterest</a>
             </li>
@@ -102,7 +105,7 @@
           </div>
         </div>
       </div>
-      <div id="products"></div>
+      <div id="products" class="grid_products"></div>
       <div id="snippet" data-title=".dot-shuttle">
         <div class="stage filter-contrast">
           <div class="dot-shuttle"></div>
