@@ -30,7 +30,10 @@ Pintrest.CallAPI = function () {
   document.getElementById("snippet").style.display = "flex";
 
   axios
-    .get("http://xoosha.com/ws/1/test.php?offset=" + offset)
+    .get("http://xoosha.com/ws/1/test.php", {
+		  params: { offset: offset },
+		  headers: { 'Content-Type': 'application/json'}
+		})
     .then(
       (response) => {
         var result = response.data;
@@ -115,7 +118,9 @@ Pintrest.CallAPI = function () {
         var description = document.createElement("p");
         description.innerHTML =  "Couldn't call API, Please click here to try again";
         iDiv.appendChild(description);
-    
+        iDiv.onclick = function () {
+          fetchApi(offset);
+        };
 
         var div = document.getElementById("products");
         div.parentNode.insertBefore(iDiv, div.nextSibling);
