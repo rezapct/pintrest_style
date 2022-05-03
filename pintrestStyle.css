@@ -418,7 +418,7 @@ div.navHeader div.drpDown ul.dropDownMenu{
     }
     
      .productItem .imageBox img{
-     height: auto!important;    
+     height: 500px!important;    
     }
 }
 
