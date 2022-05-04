@@ -1,3 +1,5 @@
 # Pintrest Style
 
-This project is written with Javascript, CSS, Html, and Axios. To run it, download the zip file, and after Extract the zip file, open the `pintrest.html` file in a browser.
+A simple app to show Pintrest site style in diffrent screen size. Built by Javascript, CSS, Html, and Axios.
+
+Link: https://adorable-biscochitos-9ca88d.netlify.app/
