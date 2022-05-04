@@ -1,4 +1,4 @@
-# Pintrest Style Challenge
+# Pinterest Style Challenge
 
 A simple app to show Pintrest site style in diffrent screen size. Built by Javascript, CSS, Html, and Axios.
 
