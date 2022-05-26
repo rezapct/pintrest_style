@@ -280,6 +280,7 @@ div.navHeader div.drpDown ul.dropDownMenu{
         margin: 2px 0;
         text-align: justify;
         font-size: 14px;
+        display: none;
     }
 
     .productItem .imageBox{
@@ -292,7 +293,6 @@ div.navHeader div.drpDown ul.dropDownMenu{
 
         .productItem .imageBox img{
             background-image: url(./images/no-image.png);
-            height: 400px;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
